@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "issued_ms": 1790380800000,
+  "nostr_relays": [],
+  "iroh_relays": [],
+  "helpers": [],
+  "cloud_mailboxes": [{ "item": "https://mailbox.jurisgames.com", "weight": 100 }],
+  "cloud_mode": "Always",
+  "blossom_servers": [
+    { "item": "https://nostr.download", "weight": 10 },
+    { "item": "https://cdn.hzrd149.com", "weight": 10 }
+  ],
+  "required": []
+}
