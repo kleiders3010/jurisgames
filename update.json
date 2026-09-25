@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "apps": {
+    "tasks": {
+      "version_name": "0.1.0-prototype",
+      "version_code": 1,
+      "released": "2026-09-25",
+      "android": {
+        "play": "https://play.google.com/store/apps/details?id=com.jurisgames.tasks",
+        "apk": "https://github.com/kleiders3010/jurisgames/releases"
+      },
+      "desktop": {
+        "windows": "https://github.com/kleiders3010/jurisgames/releases",
+        "linux": "https://github.com/kleiders3010/jurisgames/releases"
+      }
+    }
+  }
+}

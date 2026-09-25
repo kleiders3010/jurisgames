@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Join a list · Tasks</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+  <h1 id="title">You're invited to a shared list</h1>
+  <p id="lead">Open this in the Tasks app to join. The code below stays on your device: it's after the <code>#</code> in the link, which browsers never send to a server.</p>
+  <p class="code" id="code" aria-live="polite"></p>
+  <div class="actions">
+    <a class="button primary" id="get" href="https://play.google.com/store/apps/details?id=com.jurisgames.tasks">Get the app</a>
+    <button class="button" id="copy" type="button">Copy the code</button>
+  </div>
+  <p class="small" id="hint">Already have the app? Choose "Join with code" and paste it. Installing now? The app finds the invite when it first opens.</p>
+</main>
+<script>
+  // Everything here runs locally; nothing is sent anywhere.
+  const link = location.href;
+  const frag = decodeURIComponent(location.hash.slice(1));
+  const words = frag.split("~")[0].split("-").filter(Boolean);
+  const isLink = location.pathname.startsWith("/link");
+  if (isLink) {
+    document.getElementById("title").textContent = "Link a device to your account";
+    document.getElementById("lead").textContent = "Open this on the device you want to add, in the Tasks app. The code stays on your device: browsers never send the part after # to a server.";
+    document.getElementById("hint").textContent = "In the app, choose \"Link this device\" and paste it.";
+  }
+  const code = document.getElementById("code");
+  code.textContent = words.length === 8 ? words.slice(0, 4).join(" ") + "\n" + words.slice(4).join(" ") : "This link has no code in it.";
+  async function copyLink() {
+    try { await navigator.clipboard.writeText(link); document.getElementById("copy").textContent = "Copied"; } catch (e) {}
+  }
+  document.getElementById("copy").addEventListener("click", copyLink);
+  // Getting the app: copy first, so the app can find the invite at first launch.
+  document.getElementById("get").addEventListener("click", () => { copyLink(); });
+  if (!/Android/i.test(navigator.userAgent)) {
+    document.getElementById("get").href = "https://github.com/kleiders3010/jurisgames/releases";
+  }
+</script>
+</body>
+</html>
