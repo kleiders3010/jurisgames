@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jurisgames.tasks",
+      "sha256_cert_fingerprints": [
+        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E"
+      ]
+    }
+  }
+]
