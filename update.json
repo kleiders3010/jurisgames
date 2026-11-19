@@ -2,15 +2,15 @@
   "format": 1,
   "apps": {
     "tasks": {
-      "version_name": "1.0.5",
-      "version_code": 7,
+      "version_name": "1.0.6",
+      "version_code": 8,
       "released": "2026-11-19",
       "android": {
         "play": "https://play.google.com/store/apps/details?id=com.jurisgames.tasks",
-        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.5"
+        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.6"
       },
       "desktop": {
-        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.5",
+        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.6",
         "linux": "https://github.com/kleiders3010/jurisgames/releases"
       }
     }
