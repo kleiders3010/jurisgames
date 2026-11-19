@@ -6,6 +6,7 @@
       "version_code": 5,
       "released": "2026-11-19",
       "android": {
+        "play": "https://play.google.com/store/apps/details?id=com.jurisgames.tasks",
         "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.3"
       },
       "desktop": {
