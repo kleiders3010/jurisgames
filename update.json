@@ -19,6 +19,7 @@
       "version_code": 1,
       "released": "2026-11-21",
       "android": {
+        "play": "https://play.google.com/store/apps/details?id=com.jurisgames.sobres",
         "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.0"
       },
       "desktop": {
