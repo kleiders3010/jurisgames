@@ -1,6 +1,8 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.jurisgames.tasks",
@@ -10,12 +12,15 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.jurisgames.sobres",
       "sha256_cert_fingerprints": [
-        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E"
+        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E",
+        "93:AC:8B:29:91:B5:58:62:DD:B2:6B:32:AA:53:5B:9A:D3:A7:37:16:C0:E6:9D:DD:68:D9:19:E1:8A:C1:91:D8"
       ]
     }
   }
