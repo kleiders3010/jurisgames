@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.jurisgames.tasks",
       "sha256_cert_fingerprints": [
-        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E"
+        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E",
+        "74:E0:A5:0D:FC:B4:94:AC:B0:0E:FA:11:D8:A0:D8:7D:ED:21:BF:2F:6A:F8:6E:A4:7A:FA:60:55:61:1E:9F:3A"
       ]
     }
   },
