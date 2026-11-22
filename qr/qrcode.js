@@ -1,3 +1,8 @@
+// Vendored: qrcode-generator 1.4.4 by Kazuhiko Arase (npm package qrcode-generator,
+// https://github.com/kazuhikoarase/qrcode-generator), MIT licence, text below as published except one line:
+// the fillRect in renderTo2dContext takes (col, row) (found by an independent audit on 2026-11-22, which compared
+// it with 1.4.4). The make page never calls that function.
+
 //---------------------------------------------------------------------
 //
 // QR Code Generator for JavaScript
