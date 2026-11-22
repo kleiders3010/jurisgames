@@ -50,3 +50,4 @@ p { margin: 0 0 1rem; }
 }
 .button.primary { background: var(--accent); color: var(--accent-fg); }
 code { font-size: 0.95em; }
+a { color: var(--accent); }

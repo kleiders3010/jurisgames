@@ -2,28 +2,28 @@
   "format": 1,
   "apps": {
     "tasks": {
-      "version_name": "1.0.8",
-      "version_code": 10,
-      "released": "2026-11-19",
+      "version_name": "1.0.9",
+      "version_code": 11,
+      "released": "2026-11-21",
       "android": {
         "play": "https://play.google.com/store/apps/details?id=com.jurisgames.tasks",
-        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.8"
+        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.9"
       },
       "desktop": {
-        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.8",
+        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.9",
         "linux": "https://github.com/kleiders3010/jurisgames/releases"
       }
     },
     "sobres": {
-      "version_name": "1.0.0",
-      "version_code": 1,
+      "version_name": "1.0.1",
+      "version_code": 2,
       "released": "2026-11-21",
       "android": {
         "play": "https://play.google.com/store/apps/details?id=com.jurisgames.sobres",
-        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.0"
+        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.1"
       },
       "desktop": {
-        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.0",
+        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.1",
         "linux": "https://github.com/kleiders3010/jurisgames/releases"
       }
     }
