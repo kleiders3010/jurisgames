@@ -1,0 +1,15 @@
+.kinds { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+.kinds button { border: 1px solid var(--muted); border-radius: 999px; padding: 0.35rem 0.9rem; background: transparent; color: var(--fg); font: inherit; font-size: 0.95rem; cursor: pointer; }
+.kinds button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+form label { display: block; margin: 0 0 0.75rem; font-size: 0.95rem; color: var(--muted); }
+form input, form textarea, form select { display: block; width: 100%; margin-top: 0.25rem; padding: 0.55rem 0.7rem; border: 1px solid var(--muted); border-radius: 10px; background: var(--bg); color: var(--fg); font: inherit; }
+form label.check { display: flex; gap: 0.5rem; align-items: center; color: var(--fg); }
+form label.check input { width: auto; margin: 0; }
+.colors { display: flex; gap: 1.5rem; margin: 0.5rem 0; }
+.colors label { display: flex; gap: 0.5rem; align-items: center; }
+.colors input { width: 2.6rem; height: 2rem; border: none; background: none; padding: 0; }
+.warn { color: #c0392b; min-height: 0; }
+.warn:empty { display: none; }
+.preview { background: var(--card); border-radius: 12px; padding: 1rem; display: flex; justify-content: center; min-height: 6rem; align-items: center; }
+.preview img { width: 100%; max-width: 18rem; image-rendering: pixelated; }
+.button[aria-disabled="true"] { opacity: 0.4; pointer-events: none; }

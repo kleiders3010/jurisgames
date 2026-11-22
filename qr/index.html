@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Make a QR code · QR</title>
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="qr.css">
+</head>
+<body>
+<main>
+  <h1 data-t="Make a QR code">Make a QR code</h1>
+  <p class="small" data-t="Everything happens in this page: what you type is never sent anywhere. Codes made here never expire.">Everything happens in this page: what you type is never sent anywhere. Codes made here never expire.</p>
+  <div class="kinds" role="tablist" id="kinds"></div>
+  <form id="form" autocomplete="off"></form>
+  <div class="colors">
+    <label><span data-t="Squares">Squares</span> <input type="color" id="fg" value="#000000"></label>
+    <label><span data-t="Background">Background</span> <input type="color" id="bg" value="#ffffff"></label>
+  </div>
+  <p class="warn" id="problem" role="status"></p>
+  <div class="preview" id="preview" aria-live="polite"></div>
+  <p class="small" id="note"></p>
+  <div class="actions">
+    <a class="button primary" id="png" download="qr.png" data-t="Save picture">Save picture</a>
+    <a class="button" id="svg" download="qr.svg" data-t="Save as SVG">Save as SVG</a>
+  </div>
+  <p class="small"><span data-t="To scan codes, and to put a picture in the middle, get the Android app:">To scan codes, and to put a picture in the middle, get the Android app:</span>
+    <a href="https://play.google.com/store/apps/details?id=com.jurisgames.qr">QR on Google Play</a> ·
+    <a href="https://github.com/kleiders3010/qr" data-t="source code">source code</a> ·
+    <a href="/privacy/" data-t="Privacy">Privacy</a></p>
+  <p class="small"><span data-t="A problem or an idea? Write to">A problem or an idea? Write to</span> <a href="mailto:hello@jurisgames.com">hello@jurisgames.com</a>.
+    <span data-t="Codes are made with qrcode-generator by Kazuhiko Arase (MIT). QR Code is a registered trademark of DENSO WAVE.">Codes are made with qrcode-generator by Kazuhiko Arase (MIT). QR Code is a registered trademark of DENSO WAVE.</span></p>
+</main>
+<script src="qrcode.js"></script>
+<script src="make.js"></script>
+</body>
+</html>
