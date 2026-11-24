@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "serial": 2026112401,
+  "serial": 2026112402,
   "apps": {
     "tasks": {
-      "version_name": "1.0.12",
-      "version_code": 14,
-      "released": "2026-11-23",
+      "version_name": "1.0.13",
+      "version_code": 15,
+      "released": "2026-11-24",
       "android": {
         "play": "https://play.google.com/store/apps/details?id=com.jurisgames.tasks",
-        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.12"
+        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.13"
       },
       "desktop": {
-        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.12",
+        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/tasks-v1.0.13",
         "linux": "https://github.com/kleiders3010/jurisgames/releases"
       }
     },
