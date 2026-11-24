@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "serial": 2026112301,
+  "serial": 2026112401,
   "apps": {
     "tasks": {
       "version_name": "1.0.12",
@@ -16,15 +16,15 @@
       }
     },
     "sobres": {
-      "version_name": "1.0.4",
-      "version_code": 5,
-      "released": "2026-11-23",
+      "version_name": "1.0.5",
+      "version_code": 6,
+      "released": "2026-11-24",
       "android": {
         "play": "https://play.google.com/store/apps/details?id=com.jurisgames.sobres",
-        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.4"
+        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.5"
       },
       "desktop": {
-        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.4",
+        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/sobres-v1.0.5",
         "linux": "https://github.com/kleiders3010/jurisgames/releases"
       }
     },
