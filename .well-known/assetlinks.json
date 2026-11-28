@@ -46,7 +46,8 @@
       "namespace": "android_app",
       "package_name": "com.jurisgames.cada",
       "sha256_cert_fingerprints": [
-        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E"
+        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E",
+        "A4:76:92:07:07:71:4A:E0:B1:00:71:6A:19:FA:CE:28:29:9B:93:F7:F7:75:4B:23:37:58:BC:16:90:9C:A9:61"
       ]
     }
   }
