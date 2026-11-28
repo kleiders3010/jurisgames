@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "serial": 2026112402,
+  "serial": 2026112801,
   "apps": {
     "tasks": {
       "version_name": "1.0.13",
@@ -37,6 +37,18 @@
       },
       "desktop": {
         "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/ciclo-v1.0.0",
+        "linux": "https://github.com/kleiders3010/jurisgames/releases"
+      }
+    },
+    "cada": {
+      "version_name": "1.0.0",
+      "version_code": 1,
+      "released": "2026-11-28",
+      "android": {
+        "apk": "https://github.com/kleiders3010/jurisgames/releases/tag/cada-v1.0.0"
+      },
+      "desktop": {
+        "windows": "https://github.com/kleiders3010/jurisgames/releases/tag/cada-v1.0.0",
         "linux": "https://github.com/kleiders3010/jurisgames/releases"
       }
     }

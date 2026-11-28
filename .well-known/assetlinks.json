@@ -37,5 +37,17 @@
         "D7:B8:5A:C7:6B:7B:C4:16:F8:BA:E1:64:73:F4:7A:FE:C3:94:DF:AE:72:60:D7:7C:A9:5D:E0:F3:09:71:1A:60"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jurisgames.cada",
+      "sha256_cert_fingerprints": [
+        "1F:1B:C1:66:65:8C:D1:50:87:AA:4C:7C:C3:DB:42:5E:37:1A:EE:07:A9:C9:97:D5:7E:1B:29:D1:C4:09:7C:5E"
+      ]
+    }
   }
 ]
